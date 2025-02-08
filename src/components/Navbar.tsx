@@ -30,8 +30,14 @@ const Navbar: React.FC<NavbarProps> = ({ toggleTheme, themeMode }) => {
           </IconButton>
 
           {/* Left Side: "My App" Button */}
-          <Button component={Link} to="/" color="inherit" sx={{ flexGrow: 1 }}>
-            My App
+          <Button 
+            component={Link} 
+            to="/" 
+            color="inherit" 
+            sx={{ 
+              width: "150px"
+            }}>
+            Locations
           </Button>
 
           {/* Right Side: Theme Toggle */}
